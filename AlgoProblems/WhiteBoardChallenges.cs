@@ -4,10 +4,10 @@ using System.Text;
 
 namespace AlgoProblems
 {
-    class WhiteBoardChallenges
+    public class WhiteBoardChallenges
     {
 
-        public static bool IsPinValid(string pin)
+        public bool IsPinValid(string pin)
         {
             if (Int32.TryParse(pin, out int numValue) == true)
             {
