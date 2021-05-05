@@ -6,8 +6,13 @@ namespace AlgoProblems
     {
         static void Main(string[] args)
         {
-            var challenge = new WhiteBoardChallenges();            
             
+        }
+
+        static void RunISPinValidMethod()
+        {
+            var challenge = new WhiteBoardChallenges();
+
             Console.WriteLine(challenge.IsPinValid("1234"));
             Console.WriteLine(challenge.IsPinValid("1b34"));
             Console.WriteLine(challenge.IsPinValid("12345"));
