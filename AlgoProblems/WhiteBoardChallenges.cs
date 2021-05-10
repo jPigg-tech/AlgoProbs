@@ -24,7 +24,7 @@ namespace AlgoProblems
                 return false;
             }
         }
-        public char[] ReverseArray(char[] array)
+        public char[] ReverseArray(params char[] array)
         {
             char[] reversedArray = new char[array.Length];
             for (int i = array.Length - 1, j = 0; i >= 0; i--, j++)

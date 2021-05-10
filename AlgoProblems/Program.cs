@@ -6,7 +6,10 @@ namespace AlgoProblems
     {
         static void Main(string[] args)
         {
-            
+            var challenge = new WhiteBoardChallenges();
+
+            Console.WriteLine(challenge.ReverseArray('1', '2', '3', '4'));
+            Console.WriteLine(challenge.ReverseArray('f', 'f', '3', 'J'));
         }
 
         static void RunISPinValidMethod()
