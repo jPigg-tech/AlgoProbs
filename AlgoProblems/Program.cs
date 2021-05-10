@@ -6,6 +6,11 @@ namespace AlgoProblems
     {
         static void Main(string[] args)
         {
+            
+        }
+        
+        static void RunIsEndingSame()
+        {
             var sameEnding = new SameEnding();
 
             Console.WriteLine(sameEnding.IsEndingSame("Jeff", "ff"));
