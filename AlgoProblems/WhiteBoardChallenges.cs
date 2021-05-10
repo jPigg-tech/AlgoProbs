@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace AlgoProblems
@@ -23,15 +24,6 @@ namespace AlgoProblems
             {
                 return false;
             }
-        }
-        public char[] ReverseArray(params char[] array)
-        {
-            char[] reversedArray = new char[array.Length];
-            for (int i = array.Length - 1, j = 0; i >= 0; i--, j++)
-            {
-                reversedArray[j] = array[i];
-            }
-            return reversedArray;
         }
     }
 }

@@ -6,10 +6,19 @@ namespace AlgoProblems
     {
         static void Main(string[] args)
         {
-            var challenge = new WhiteBoardChallenges();
+            var isogram = new Isogram();
 
-            Console.WriteLine(challenge.ReverseArray('1', '2', '3', '4'));
-            Console.WriteLine(challenge.ReverseArray('f', 'f', '3', 'J'));
+            Console.WriteLine(isogram.IsIsogram("Jeff"));
+            Console.WriteLine(isogram.IsIsogram("ambidextrously"));
+            Console.WriteLine(isogram.IsIsogram("trust"));
+        }
+        
+        static void RunReverseArray()
+        {
+            var anArray = new ReverseAnArray();
+
+            Console.WriteLine(anArray.ReverseArray('1', '2', '3', '4'));
+            Console.WriteLine(anArray.ReverseArray('f', 'f', '3', 'J'));
         }
 
         static void RunISPinValidMethod()
