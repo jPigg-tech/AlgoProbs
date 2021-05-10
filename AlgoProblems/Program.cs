@@ -6,7 +6,19 @@ namespace AlgoProblems
     {
         static void Main(string[] args)
         {
-            
+            var runningSumArray = new RunnningSumArray();
+
+            //runningSumArray.RunningSum(1, 2, 3, 4);
+            foreach (var number in runningSumArray.RunningSum(1, 2, 3, 4))
+            {
+                Console.WriteLine(number);
+            }
+
+
+            foreach (var number in runningSumArray.RunningSum(1, 1, 1, 1))
+            {
+                Console.WriteLine(number);
+            }
         }
 
         static void RunRot13()

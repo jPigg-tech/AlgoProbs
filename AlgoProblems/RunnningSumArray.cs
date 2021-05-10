@@ -4,9 +4,9 @@ using System.Text;
 
 namespace AlgoProblems
 {
-    class RunnningSumArray
+    public class RunnningSumArray
     {
-        public static int[] RunningSum(int[] nums)
+        public int[] RunningSum(params int[] nums)
         {
             int[] numsReturned = new int[nums.Length];
 
