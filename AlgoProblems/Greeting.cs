@@ -16,7 +16,8 @@ namespace AlgoProblems
             return "Hello, " + name + " how are you doing today?";
         }
 
-        // or you can use 
+        // or you can use... 
+
         // public string Greet(string name)
         // {
         //     return !String.IsNullOrEmpty(name) ? $"Hello, {name} how are you doing today?" : "Name is empty.";

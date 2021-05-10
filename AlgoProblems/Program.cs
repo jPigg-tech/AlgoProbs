@@ -8,7 +8,15 @@ namespace AlgoProblems
         {
             
         }
-        
+
+        static void RunRot13()
+        {
+            var rot13 = new Rot13();
+
+            Console.WriteLine(rot13.GetRot13("hello"));
+            // 'hello' == 'uryyb'
+        }
+
         static void RunIsEndingSame()
         {
             var sameEnding = new SameEnding();
