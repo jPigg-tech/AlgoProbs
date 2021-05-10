@@ -6,6 +6,16 @@ namespace AlgoProblems
     {
         static void Main(string[] args)
         {
+            var sameEnding = new SameEnding();
+
+            Console.WriteLine(sameEnding.IsEndingSame("Jeff", "ff"));
+            Console.WriteLine(sameEnding.IsEndingSame("abc", "d"));
+            Console.WriteLine(sameEnding.IsEndingSame("abcd", "bcd"));
+            Console.WriteLine(sameEnding.IsEndingSame("a", "a"));
+        }
+
+        static void RunIsIsogram()
+        {
             var isogram = new Isogram();
 
             Console.WriteLine(isogram.IsIsogram("Jeff"));

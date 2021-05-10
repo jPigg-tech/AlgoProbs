@@ -25,5 +25,9 @@ namespace AlgoProblems
                 return false;
             }
         }
+
+        // The method should take in a string and check if the string
+        // is all numbers and is either 4 or 6 digits for it to 
+        // be a valid pin
     }
 }
