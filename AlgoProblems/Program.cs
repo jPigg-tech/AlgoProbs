@@ -6,7 +6,9 @@ namespace AlgoProblems
     {
         static void Main(string[] args)
         {
-            
+            var alphabetSoup = new AlphabetSoup();
+
+            Console.WriteLine(alphabetSoup.GetAlphabetSoup("hello"));
         }
 
         static void RunRunningSumArray()
